@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 100%;
+}
+.container {
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1020px;
+}
+.main-mainu {
+    float: left;
+}
+.navbar{
+    width: 100%;
+    padding: 20px ;
+}
+.navbar ul {
+    list-style-type: none;
+    font-weight: bold;
+}
+.navbar ul li {
+    display: inline;
+}
+.navbar ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 26px;
+    font-weight: 600;
+}
+
+ .main-mainu li:hover{
+    text-decoration: underline;
+}
+.logo img {
+    width: 100%;
+}
+.logo::before {
+    content: " ";
+    background: #000;
+    height: 1px;
+    position: absolute;
+    width: 218px;
+    top: 51px;
+    left: 519px;
+}
+.logo {
+    width: 200px;
+    padding: 0px 39px;   
+}
+.v-header{
+    width: 100%;
+    
+}
+.v-column video {
+    width: 100%;  
+  
+}
+.h-head{
+    width: 100%;
+}
+.h-column {
+    width: 100%;
+    margin: 25px auto;
+}
+.contain {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 600;
+    color: black
+}
+
+.h-column p {
+    text-align: center;
+    margin: 29px;
+    
+}
+.h-column p a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border-radius: 21px;
+    background-color: rgb(218, 111, 111);
+    text-transform: uppercase;
+    color: rgb(241, 237, 237);
+    margin: 0 auto;
+    font-size: 17px;
+    margin-left: 172px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.secondv-header {
+    background: url(../img/bottom.png) no-repeat 85% bottom / 27%, 
+    url(../img/bg.jpg) no-repeat 48% center / cover;
+    width: 100%;
+   
+}
+.second-video{
+    width: 100%;
+}
+video {
+    width: 100%;
+}
+.second-video h2 {
+    position: absolute;
+    width: 311px;
+    margin: 21px;
+    padding: 44px 13px 47px 32px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    color: rgb(233, 230, 230);
+}
+.info {
+    margin-left: 85px;
+    text-align: left;
+    padding: 25px
+}
+h3 {
+    font-size: 40px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-right: 160px;
+    margin-left: 70px;
+    font-weight: 500;
+    size: 60px;
+}
+.cards {
+    width: 100%;  
+    margin: 10px 125px;
+}
+.cards ul  {
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;  
+}
+.cards ul li {
+    background: #ffff;
+    width: 700px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cards ul li h3 {
+    margin: 0 0 25px 10px;
+    font-size: 31px;
+    position: relative;
+}
+
+.cards ul li h3::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: rgb(247, 109, 109);
+    top: 51px;
+    left: 0;
+}
+
+.cards ul li li {
+    background: url(../Img/right-arrow.png) no-repeat 0 7px;
+    padding: 0 0 0 23px;
+    line-height: 30px;
+    margin: 0;
+}
+.learn-more{
+    margin: 20px;
+}
+.learn-more a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.learn-more a:hover{
+    text-decoration: underline;
+}
+
+.before-containt {
+    background: url(../img/home.png) no-repeat 0 70px/ cover;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 180px 0 100px;
+}
+.middle-content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 5%;
+    background: #fff;
+    box-sizing: border-box;
+}
+.middle-content h2 {
+    text-align: center;
+    color: black;
+    font-size: 57px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button{
+width: 100%;
+}
+.button p{
+    text-align: center;
+    margin: 29px;
+}
+.button p a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border-radius: 21px;
+    background-color: rgb(218, 111, 111);
+    text-transform: uppercase;
+    color: rgb(241, 237, 237);
+    margin: 0;
+    padding: 7px 13px 8px 18px;
+    font-size: 15px;
+
+}
+.footer{
+    width: 100%;  
+    margin-top: 85px;
+}
+ .menu-footer ul {
+    list-style-type: none;
+    padding: 40px;
+}
+ .menu-footer li {
+    display: inline;  
+    margin: 20px;
+}
+.menu-footer li a:hover{
+    text-decoration: underline;
+}
+.menu-footer ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    
+}
+.link-img {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.link-img a {
+    font-size: 31px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(104, 39, 39, 0.2);
+    z-index: 1;
+  }
+  .dropdown li {
+    margin: 13px;
+}
+.dropdown li a{
+    font-size: 10px;
+}
+  .dropdown:hover .dropdown-content {
+    display: grid;
+    margin-left: 330px;  
+  }
+  .dl-menuwrapper {
+    display: none;   
+}
+.mob-panel{
+    display: none;
+}
+@media screen and (min-width:300px) and (max-width:640px){
+    .container{
+        box-sizing: border-box;
+        padding: 0 2%;
+    }
+    .navbar{
+        display: none;
+    }
+    .mob-panel{
+        display: inline;
+    }
+    .dl-menuwrapper {
+        display: inline;   
+    }
+    .dl-menuwrapper button {
+        border: none;
+        width: 40px;
+        height: 34px;
+        text-indent: -900em;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+    }
+    .dl-menuwrapper button:after {
+        content: '';
+        position: absolute;
+        width: 56%;
+        height: 2px; 
+        top: 10px;
+        left: 16%;
+        
+    }
+    
+    .mob-craft-logo {
+        width: auto;
+        display: inline;
+        position: absolute;
+        top: 13px;
+        left: 32%;
+        margin: 0 0 0 -20px;
+    }
+    .mob-craft-logo img{
+        width: 132px;
+        display: inline;
+    }
+    .mob-En {
+        display: inline;
+        float: right;
+        padding: 14px 14px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown a.dropbtn {
+        color: black;
+        text-decoration: none;
+        font-size: 17px; 
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(104 39 39 / 20%);
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        margin-left: -97px; 
+      }
+    
+      
+    .contain{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding: 26px;
+    }
+    button {
+        width: 100%;
+    }
+    .button p {
+        margin: 0;
+    }
+    .button p a {
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        border-radius: 21px;
+        background-color: rgb(218, 111, 111);
+        text-transform: uppercase;
+        color: rgb(241, 237, 237);
+        padding: 7px 13px 8px 18px;
+        
+    }
+    
+    .second-video {
+        width: 100%;
+        position: relative;
+    }
+    .second-video h2 {
+        position: absolute;
+        width: auto;
+        margin: 0;
+        left: 20px;
+        padding: 0;
+        font-size: 20px;
+        top: 20px;
+    }
+    video {
+        width: 100%;
+    }
+    .info {
+        margin-left: 0;
+        text-align: left;
+        padding: 25px;
+    }
+    h3 {
+        font-size: 40px;
+        margin: 0 0 20px;
+        font-weight: 600;
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 27px;
+        margin-right: 0;
+        margin-left: 0;
+        font-weight: 500;
+        size: 60px;
+    }
+    .cards {
+        width: 100%;
+        margin: 0;
+    }
+    .cards ul {
+        list-style-type: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    .cards ul li {
+        background: #ffff;
+        width: 100%;
+        box-sizing: border-box;  
+        margin: 0 0 20px;
+    }
+    .cards ul li h3 {
+        margin: 0 0 55px 10px;
+        font-size: 21px;
+        position: relative;
+    }
+    .cards ul li h3::before {
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 3px;
+        background: rgb(247, 109, 109);
+        top: 51px;
+        left: 0;
+    }
+    .cards ul {
+        list-style-type: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    .cards ul li li {
+        background: url(../Img/right-arrow.png) no-repeat 10px 7px;
+        padding: 0 0 0 37px;
+        line-height: 30px;
+        margin: 0;
+        width: initial;
+
+    }
+    .before-containt {
+        background: url(../img/home.png) no-repeat 0px 70px/ cover;
+        width: 100%;
+        box-sizing: border-box;
+        
+    }
+    .middle-content {
+        width: 167px;
+        margin: 0 auto;
+        padding: 41px 5%;
+        background: #fff;
+        box-sizing: border-box;
+    }
+    .middle-content h2 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif
+}
+.button {
+    width: 100%;
+}
+.button p {
+    text-align: center;
+    margin: 9px;
+}
+.button p a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border-radius: 21px;
+    background-color: rgb(218, 111, 111);
+    text-transform: uppercase;
+    color: rgb(241, 237, 237);
+    padding: 7px 13px 8px 18px;
+    font-size: 8px;
+}
+.footer {
+    width: 100%;
+    margin-top: 25px;
+    }
+    .menu-footer ul {
+        list-style-type: none;
+        
+    }
+    .menu-footer li {
+        display: block;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+    .menu-footer ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+    }
+      .link-img {
+        text-align: center;
+        font-weight: 800;
+        margin-bottom: 80px;
+    }
+      .link-img a {
+        font-size: 31px;
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+    }
+      
+  }
+  @media screen and (min-width:642px) and (max-width:960px){
+
+    .navbar{
+        display: none;
+    }
+    .mob-panel{
+        display: inline;
+    }
+    .dl-menuwrapper {
+        display: inline;   
+    }
+    .dl-menuwrapper button {
+        border: none;
+        width: 40px;
+        height: 34px;
+        text-indent: -900em;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .dl-menuwrapper button:after {
+        content: '';
+        position: absolute;
+        width: 56%;
+        height: 2px; 
+        top: 10px;
+        left: 16%;
+        
+    }
+    .mob-craft-logo {
+        width: auto;
+        display: inline;
+        position: absolute;
+        top: 13px;
+        left: 32%;
+        margin: 0 0 0 -20px;
+    }
+
+    .mob-craft-logo {
+        width: auto;
+        display: inline;
+        position: absolute;
+        top: 13px;
+        left: 41%;
+        margin: 0 0 0 -20px;
+    }
+    .mob-craft-logo img{
+        width: 162px;
+        display: inline;
+    }
+    .mob-En {
+        display: inline;
+        float: right;
+        padding: 14px 14px;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown a.dropbtn {
+        color: black;
+        text-decoration: none;
+        font-size: 17px; 
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(104 39 39 / 20%);
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        margin-left: -97px;
+     }
+
+
+   
+    .cards {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .menu-footer ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    .menu-footer li {
+        display: inline;
+        margin: 5px;
+    }
+  }
+  @media screen and (min-width:961px) and (max-width:1010px){
+
+    .navbar {
+        width: 100%;
+        padding: 3px;
+    }
+
+    .logo::before {
+        content: " ";
+        background: #000;
+        height: 1px;
+        position: absolute;
+        width: 218px;
+        top: 35px;
+        left: 361px;
+    }
+
+
+    .cards {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .cards ul li {
+        background: #ffff;
+        width: 700px;
+        box-sizing: border-box;
+        margin: 0 0px 29px 133px;
+        padding: 20px;
+    }
+
+    .menu-footer ul {
+        list-style-type: none;
+        padding: 27px;
+    }
+
+  }
+
+  @media screen and (min-width:1012px) and (max-width:1024px){
+    .navbar {
+        width: 100%;
+        padding: 2px;
+    }
+    .logo::before {
+        content: " ";
+        background: #000;
+        height: 1px;
+        position: absolute;
+        width: 218px;
+        top: 31px;
+        left: 337px;
+    }
+    .cards {
+        width: 100%;
+        margin: 0px 0px;
+    }
+}
