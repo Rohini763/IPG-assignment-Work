@@ -1,0 +1,142 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0px;
+    letter-spacing: 1.1px;
+}
+
+#ad {
+    position: absolute;
+    display: block;
+    border: #000000 1px solid;
+    overflow: hidden;
+    width: 298px;
+    height: 248px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#bgExit {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+	cursor: pointer;
+}
+
+#banner {
+    position: absolute;
+    display: block;
+    width: 298px;
+    height: 248px;
+    overflow: hidden;
+   /* opacity: 0;*/
+    
+}
+
+#frame_1 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-image: url('background-img.png');
+	/* background-image: url('overlay2.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#branding1 {
+	position: absolute;
+    width: 300px;
+    height: 250px;
+	top: -30px;
+	left:0;
+    background-image: url('brand-1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+	opacity: 0;
+}
+#branding2 {
+	position: absolute;
+    width: 300px;
+    height: 250px;
+	bottom: -30px;
+	left: 0;
+    background-image: url('brand-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+	opacity: 0;
+}
+#headline {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+	top: 0px;
+	left: 0px;
+    background-image: url('heading.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+	opacity: 0;
+}
+
+#offer {
+    position: absolute;
+    background-repeat: no-repeat;
+     width: 300px;
+    height: 250px;
+	top: 0px;
+	left: -300px;
+    background-image: url('layer-1.png');
+    background-size: cover;
+}
+#offer1 {
+    position: absolute;
+    background-repeat: no-repeat;
+     width: 300px;
+    height: 250px;
+	top: 0px;
+	left: -300px;
+    background-image: url('layer-2.png');
+    background-size: cover;
+}
+#offer2 {
+    position: absolute;
+    background-repeat: no-repeat;
+     width: 300px;
+    height: 250px;
+	top: 0px;
+	left: -300px;
+    background-image: url('layer-3.png');
+    background-size: cover;
+}
+#offer3 {
+    position: absolute;
+    background-repeat: no-repeat;
+     width: 300px;
+    height: 250px;
+	top: 0px;
+	left: -300px;
+    background-image: url('layer-4.png');
+    background-size: cover;
+}
+#cta {
+    position: absolute;
+    top: 212px;
+    left: 181px;
+    width: 104px;
+    height: 24px;
+    background-image: url('button.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+	cursor: pointer;
+}
